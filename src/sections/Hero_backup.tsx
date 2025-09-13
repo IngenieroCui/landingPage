@@ -61,7 +61,7 @@ export const Hero = () => {
                   size="lg" 
                   variant="outline"
                   icon={<FileText size={20} />}
-                  href="https://www.figma.com/make/bsdZjUitpMKbCEgbpKSaxL/Wireframes-App-Turismo-Ibagu%C3%A9?node-id=0-1&t=9tyBg9gt45SlkUBk-1https://www.figma.com/make/bsdZjUitpMKbCEgbpKSaxL/Wireframes-App-Turismo-Ibagu%C3%A9?fullscreen=1"
+                  href="#wireframes"
                 >
                   Ver Wireframes
                 </Button>
@@ -106,7 +106,7 @@ export const Hero = () => {
                       {/* Botones de acción lateral */}
                       <div className="side-actions">
                         <div className="action-btn search-btn">
-                          <div className="btn-icon">�</div>
+                          <div className="btn-icon">🔍</div>
                         </div>
                         <div className="action-btn profile-btn">
                           <div className="profile-pic"></div>
@@ -133,7 +133,6 @@ export const Hero = () => {
                         <span className="username">@Aventuras Extremas Tolima</span>
                         <span className="category-tag">aventura</span>
                       </div>
-
                     </div>
 
                     {/* Barra de navegación inferior */}
@@ -150,7 +149,7 @@ export const Hero = () => {
                         <div className="nav-icon add-video">➕</div>
                       </div>
                       <div className="nav-item">
-                        <div className="nav-icon">💬</div>
+                        <div className="nav-icon">💻</div>
                         <span>Mensajes</span>
                       </div>
                       <div className="nav-item">

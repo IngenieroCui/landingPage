@@ -27,21 +27,7 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
             delay: 0.3 
           }}
         >
-          <LambariLogo size={300} className="splash-logo" />
-        </motion.div>
-
-        {/* Texto animado */}
-        <motion.div
-          className="splash-text"
-          initial={{ y: 50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ 
-            duration: 0.8, 
-            delay: 1.5 
-          }}
-        >
-          <h1 className="splash-title">LAMBARI</h1>
-          <p className="splash-subtitle">Descubre el Tolima</p>
+          <LambariLogo size={450} className="splash-logo" />
         </motion.div>
 
         {/* Indicador de carga */}

@@ -2,10 +2,7 @@ import { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { SplashScreen } from './components/SplashScreen';
 import { Hero } from './sections/Hero';
-import { Investment } from './sections/Investment';
 import { Features } from './sections/Features';
-import { Screenshots } from './sections/Screenshots';
-import { QuickStats } from './sections/QuickStats';
 import { Footer } from './sections/Footer';
 import './App.css';
 
@@ -25,9 +22,6 @@ function App() {
           <div key="main" className="main-content">
             <Hero />
             <Features />
-            <Screenshots />
-            <Investment />
-            <QuickStats />
             <Footer />
           </div>
         )}

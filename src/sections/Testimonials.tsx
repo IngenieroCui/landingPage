@@ -23,16 +23,6 @@ const investorTestimonials = [
     rating: 5,
     quote: 'En 48 horas lograron crear algo realmente funcional. La idea es brillante y la ejecución demuestra un equipo competente.',
     category: 'Mentora'
-  },
-  {
-    id: 3,
-    name: 'Diego Ramírez',
-    business: 'Desarrollador Senior',
-    location: 'Evaluador Técnico',
-    avatar: 'DR',
-    rating: 5,
-    quote: 'El stack tecnológico es moderno, el código está bien estructurado y el MVP demuestra todas las funcionalidades core prometidas.',
-    category: 'Técnico'
   }
 ];
 
@@ -61,32 +51,6 @@ const testimonials = [
     metrics: {
       increase: 'Beta',
       metric: 'Tester'
-    }
-  },
-  {
-    id: 3,
-    name: 'Ana Lucía Pérez',
-    business: 'Artesanías Tolimenses',
-    location: 'Ibagué',
-    avatar: 'AP',
-    rating: 5,
-    quote: 'Probé el MVP y me encanta la facilidad para mostrar nuestros productos. La gamificación con coins es muy innovadora.',
-    metrics: {
-      increase: 'MVP',
-      metric: 'Usuario'
-    }
-  },
-  {
-    id: 4,
-    name: 'Luis Torres',
-    business: 'Delicias Tolimenses',
-    location: 'Espinal',
-    avatar: 'LT',
-    rating: 5,
-    quote: 'Los cupones de Lambari trajeron muchos clientes nuevos. El sistema de coins hace que la gente vuelva más seguido.',
-    metrics: {
-      increase: 'Feedback',
-      metric: 'Positivo'
     }
   }
 ];
@@ -151,12 +115,8 @@ export const Testimonials = () => {
           viewport={{ once: true }}
         >
           <h2>
-            Feedback del 
-            <span className="gradient-text"> MVP Lambari</span>
+            Más de 100 valoraciones positivas del MVP.
           </h2>
-          <p className="testimonials__subtitle">
-            Lo que dicen jurados, mentores y usuarios que han probado nuestro MVP durante Festech 2024.
-          </p>
         </motion.div>
 
         {/* Investor Testimonials Section */}

@@ -1,57 +1,33 @@
 import { motion } from 'framer-motion';
-import { Video, Coins, MessageCircle, MapPin, Star, Users } from 'lucide-react';
+import { Video, Coins, MapPin } from 'lucide-react';
 import { Card } from '../components/Card';
 import './Features.css';
 
 const features = [
   {
     icon: <Video />,
-    title: 'Feed Estilo TikTok',
-    description: 'Descubre negocios locales a través de videos verticales auténticos y entretenidos, con scroll infinito.',
-    highlight: 'Videos Verticales'
+    title: 'Explora más.',
+    description: 'Descubre negocios locales del Tolima a través de videos auténticos y experiencias reales.',
+    highlight: 'Exploración'
   },
   {
     icon: <Coins />,
-    title: 'Sistema de Coins',
-    description: 'Gana coins por interacciones y canjéalos por cupones y descuentos reales en tus negocios favoritos.',
-    highlight: 'Gamificación'
-  },
-  {
-    icon: <MessageCircle />,
-    title: 'Chat en Tiempo Real',
-    description: 'Comunícate directamente con los negocios, haz reservas y obtén información instantánea.',
-    highlight: 'Comunicación Directa'
+    title: 'Conecta mejor.',
+    description: 'Interactúa con negocios locales y gana recompensas por tus descubrimientos.',
+    highlight: 'Conexión'
   },
   {
     icon: <MapPin />,
-    title: 'Geolocalización',
-    description: 'Encuentra negocios cercanos a tu ubicación con mapas interactivos y navegación integrada.',
-    highlight: 'Ubicación Inteligente'
-  },
-  {
-    icon: <Star />,
-    title: 'Sistema de Reseñas',
-    description: 'Califica y comenta sobre tus experiencias para ayudar a otros usuarios a descubrir lo mejor.',
-    highlight: 'Reseñas Verificadas'
-  },
-  {
-    icon: <Users />,
-    title: 'Comunidad Local',
-    description: 'Conecta con otros usuarios, sigue negocios y construye tu propia red de experiencias locales.',
-    highlight: 'Red Social'
+    title: 'Vive auténtico.',
+    description: 'Encuentra experiencias genuinas cerca de ti y crea recuerdos inolvidables.',
+    highlight: 'Autenticidad'
   }
 ];
 
 export const Features = () => {
   return (
     <section className="features section">
-      <div className="features__background">
-        <div className="bg-decoration bg-decoration--1">📱</div>
-        <div className="bg-decoration bg-decoration--2">⭐</div>
-        <div className="bg-decoration bg-decoration--3">🎯</div>
-        <div className="bg-decoration bg-decoration--4">💬</div>
-        <div className="bg-pattern"></div>
-      </div>
+
       <div className="container">
         <motion.div
           className="features__header text-center"
@@ -61,13 +37,8 @@ export const Features = () => {
           viewport={{ once: true }}
         >
           <h2>
-            Una Experiencia Única Para 
-            <span className="gradient-text"> Descubrir el Tolima</span>
+            Estamos aquí para ayudarte a descubrir.
           </h2>
-          <p className="features__subtitle">
-            Conectamos usuarios con emprendedores locales a través de tecnología innovadora 
-            y experiencias auténticas que transforman la forma de descubrir negocios.
-          </p>
         </motion.div>
 
         <div className="features__grid">

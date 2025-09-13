@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Store, TrendingUp, Users, Star, Camera, MessageCircle, BarChart3, MapPin } from 'lucide-react';
+import { Store, TrendingUp, Users, Star, Camera, MessageCircle, MapPin } from 'lucide-react';
 import { Button } from '../components/Button';
 import { Card } from '../components/Card';
 import './ForBusiness.css';
@@ -8,26 +8,20 @@ const businessFeatures = [
   {
     icon: <Camera />,
     title: 'Crea Contenido Viral',
-    description: 'Comparte videos de tus productos y servicios que lleguen a miles de usuarios locales.',
+    description: 'Comparte videos de tus productos y servicios que lleguen a usuarios locales.',
     stats: '+300% visibilidad'
   },
   {
     icon: <Users />,
     title: 'Conecta con Clientes',
-    description: 'Chat directo con usuarios interesados, genera confianza y aumenta tus ventas.',
+    description: 'Chat directo con usuarios interesados y aumenta tus ventas.',
     stats: '24/7 comunicación'
   },
   {
     icon: <TrendingUp />,
     title: 'Aumenta tus Ventas',
-    description: 'Ofrece cupones exclusivos y promociones que incentiven las visitas a tu negocio.',
+    description: 'Ofrece cupones exclusivos que incentiven las visitas.',
     stats: '+150% conversión'
-  },
-  {
-    icon: <BarChart3 />,
-    title: 'Analíticas en Tiempo Real',
-    description: 'Monitorea el rendimiento de tus videos, interacciones y crecimiento de seguidores.',
-    stats: 'Métricas detalladas'
   }
 ];
 
@@ -35,9 +29,7 @@ const businessCategories = [
   { icon: '🍽️', name: 'Gastronomía', count: '150+ negocios' },
   { icon: '🏨', name: 'Hospedaje', count: '80+ hoteles' },
   { icon: '🏃', name: 'Aventura', count: '120+ experiencias' },
-  { icon: '🎭', name: 'Cultura', count: '60+ eventos' },
-  { icon: '🛍️', name: 'Compras', count: '200+ tiendas' },
-  { icon: '🌙', name: 'Vida Nocturna', count: '90+ lugares' }
+  { icon: '🛍️', name: 'Compras', count: '200+ tiendas' }
 ];
 
 export const ForBusiness = () => {

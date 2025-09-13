@@ -27,9 +27,7 @@ const marketData = [
 
 const techStack = [
   { name: 'React Native', icon: '⚛️', description: 'Cross-platform nativo' },
-  { name: 'Expo SDK 54', icon: '📱', description: 'Desarrollo rápido' },
   { name: 'Supabase', icon: '🔥', description: 'Backend escalable' },
-  { name: 'PostgreSQL', icon: '🐘', description: 'Base de datos robusta' },
   { name: 'TypeScript', icon: '🔷', description: 'Código seguro' },
   { name: 'Expo Video', icon: '🎥', description: 'Video optimizado' }
 ];
@@ -39,19 +37,19 @@ const roadmap = [
     phase: 'MVP Demo',
     timeline: 'Sep 2025',
     status: 'completed',
-    features: ['Feed de videos', 'Sistema básico de coins', 'Chat funcional', 'Demo con datos reales']
+    features: ['Feed de videos', 'Sistema de coins', 'Chat funcional']
   },
   {
     phase: 'Post-Festech',
     timeline: 'Oct 2025',
     status: 'next',
-    features: ['Validación con usuarios reales', 'Refinamiento UX', 'Integración con más negocios', 'Métricas de uso']
+    features: ['Validación con usuarios', 'Integración negocios', 'Métricas de uso']
   },
   {
     phase: 'Lanzamiento',
     timeline: 'Q2 2025',
     status: 'planned',
-    features: ['Expansión regional', 'Monetización completa', 'Dashboard empresarial', 'Programa de afiliados']
+    features: ['Expansión regional', 'Monetización', 'Dashboard empresarial']
   }
 ];
 
@@ -61,9 +59,7 @@ export const Investment = () => {
       <div className="investment__decorations">
         <div className="decoration decoration--1">💡</div>
         <div className="decoration decoration--2">🚀</div>
-        <div className="decoration decoration--3">💰</div>
-        <div className="decoration decoration--4">📈</div>
-        <div className="decoration decoration--5">🏔️</div>
+        <div className="decoration decoration--3"></div>
       </div>
       <div className="container">
         <motion.div
@@ -77,13 +73,8 @@ export const Investment = () => {
             🏆 Presentando en Festech 2025
           </div>
           <h2>
-            <span className="gradient-text">Lambari</span> - MVP 
-            <span className="gradient-text"> Funcional</span>
+            Revisa nuestro MVP para más información sobre tecnología y recursos de turismo local.
           </h2>
-          <p className="investment__subtitle">
-            Desarrollado para la hackathon de Festech 2025. Un MVP que demuestra el potencial 
-            de conectar turistas con la experiencia auténtica del Tolima.
-          </p>
         </motion.div>
 
         <div className="investment__metrics">
