@@ -1,0 +1,52 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo blanco -->
+  <rect width="400" height="400" fill="white"/>
+  
+  <!-- Mountain con contorno grueso -->
+  <path d="M80 160 L200 40 L320 160 L300 160 L200 70 L100 160 Z" 
+        fill="black" 
+        stroke="black" 
+        stroke-width="8" 
+        stroke-linejoin="round"/>
+  
+  <!-- Nieve en la montaña -->
+  <path d="M200 40 L250 90 L225 90 L200 65 L175 90 L150 90 Z" 
+        fill="white"/>
+  
+  <!-- Ojo exterior -->
+  <ellipse cx="200" cy="220" rx="120" ry="80" 
+           fill="none" 
+           stroke="black" 
+           stroke-width="8"/>
+  
+  <!-- Ojo blanco interior -->
+  <ellipse cx="200" cy="220" rx="100" ry="65" 
+           fill="white" 
+           stroke="black" 
+           stroke-width="6"/>
+  
+  <!-- Iris -->
+  <circle cx="200" cy="220" r="40" 
+          fill="white" 
+          stroke="black" 
+          stroke-width="4"/>
+  
+  <!-- Pupila -->
+  <circle cx="200" cy="220" r="20" 
+          fill="black"/>
+  
+  <!-- Brillo en el ojo -->
+  <circle cx="190" cy="210" r="6" 
+          fill="white"/>
+  
+  <!-- Texto LAMBARI -->
+  <text x="200" y="350" 
+        text-anchor="middle" 
+        font-size="48" 
+        font-weight="bold" 
+        fill="black"
+        font-family="Arial, sans-serif"
+        letter-spacing="4px">
+    LAMBARI
+  </text>
+</svg>

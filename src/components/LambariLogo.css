@@ -1,0 +1,45 @@
+.lambari-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+
+.lambari-logo:hover {
+  transform: scale(1.05);
+  color: var(--color-secondary);
+}
+
+.lambari-logo svg {
+  filter: drop-shadow(0 2px 8px rgba(42, 157, 143, 0.2));
+}
+
+.lambari-logo--white {
+  color: white;
+}
+
+.lambari-logo--white svg {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+}
+
+.lambari-logo--large {
+  color: var(--color-primary);
+}
+
+.lambari-logo--small {
+  color: var(--color-text-secondary);
+}
+
+.lambari-logo--animated {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
